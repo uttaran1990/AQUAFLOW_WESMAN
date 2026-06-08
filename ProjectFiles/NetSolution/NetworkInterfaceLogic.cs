@@ -4,6 +4,8 @@ using FTOptix.UI;
 using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.SerialPort;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class NetworkInterfaceLogic : BaseNetLogic

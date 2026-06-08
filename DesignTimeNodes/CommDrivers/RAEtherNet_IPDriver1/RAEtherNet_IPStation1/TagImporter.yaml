@@ -1,0 +1,18 @@
+Name: TagImporter
+Type: RAEtherNetIPTagImporter
+OwnerId: ns=2;g=21a8016a36d5619e36de48c6455ba2e5
+Children:
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Users/S04764/OneDrive - Sonepar/Bureau/Uttaran Data/Backup/Wesman/New folder/Aqua Flow_MC50/Aqua Flow_MC50/Aquaflow_MC50_24072025.ACD"

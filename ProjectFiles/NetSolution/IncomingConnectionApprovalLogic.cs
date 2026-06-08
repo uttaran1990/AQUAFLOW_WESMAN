@@ -2,6 +2,8 @@
 using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.System;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class IncomingConnectionApprovalLogic : BaseNetLogic

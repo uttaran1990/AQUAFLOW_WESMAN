@@ -1,9 +1,2 @@
 Name: Model
 Type: ModelCategoryFolder
-Children:
-- Name: test
-  Type: BaseDataVariableType
-  DataType: Int32
-- Name: Test2
-  Type: BaseDataVariableType
-  DataType: Int32

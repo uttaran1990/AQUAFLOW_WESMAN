@@ -74,16 +74,32 @@ Project:
    Uri: 'urn:FTOptix:System:Net'
    Module: FTOptix.System.Net
    Version: 2.0
+  19:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 7.0
+  20:
+   Uri: 'urn:FTOptix:RAEtherNetIP:Net'
+   Module: FTOptix.RAEtherNetIP.Net
+   Version: 3.2
+  21:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 3.0
+  22:
+   Uri: 'urn:FTOptix:CommunicationDriver:Net'
+   Module: FTOptix.CommunicationDriver.Net
+   Version: 4.0
  Statistics:
-  TotalNodeCount: 1912
-  Objects: 360
-  ObjectTypes: 18
-  Variables: 1524
+  TotalNodeCount: 1986
+  Objects: 376
+  ObjectTypes: 21
+  Variables: 1579
   VariableTypes: 0
   DataTypes: 0
   Methods: 10
-  References: 16
+  References: 23
   ReferenceTypes: 0
-  Files: 29
+  Files: 34
  Nodes:
  - File: Nodes/AQUAFLOW_WESMAN.yaml

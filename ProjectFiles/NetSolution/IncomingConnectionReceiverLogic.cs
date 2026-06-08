@@ -2,6 +2,8 @@
 using UAManagedCore;
 using FTOptix.System;
 using FTOptix.NetLogic;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class IncomingConnectionReceiverLogic : BaseNetLogic
