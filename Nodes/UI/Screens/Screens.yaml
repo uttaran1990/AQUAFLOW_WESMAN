@@ -147,3 +147,8 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 90.0
+  - Name: HorizontalAlignment
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
