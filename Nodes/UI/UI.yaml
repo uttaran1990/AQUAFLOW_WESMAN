@@ -508,7 +508,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               ModellingRule: None
-              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/MOISTURESCREEN"
+              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/MOISTURE_SCREEN"
           - Name: Pair3
             Type: ValueMapPair
             ModellingRule: None
@@ -522,7 +522,35 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               ModellingRule: None
-              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/MOISTUREPIDSCREEN"
+              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/MOISTURE_PID_SCREEN"
+          - Name: Pair4
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              ModellingRule: None
+              Value: 4
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: NodeId
+              ModellingRule: None
+              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/SYS_CONFIGURATION"
+          - Name: Pair5
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              ModellingRule: None
+              Value: 17
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: NodeId
+              ModellingRule: None
+              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/CONFIGURATION_SCREEN"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
