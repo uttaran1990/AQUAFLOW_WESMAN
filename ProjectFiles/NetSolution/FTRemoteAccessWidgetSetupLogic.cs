@@ -6,6 +6,8 @@ using FTOptix.System;
 using FTOptix.NetLogic;
 using FTOptix.Core;
 using FTOptix.CoreBase;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class FTRemoteAccessWidgetSetupLogic : BaseNetLogic

@@ -6,6 +6,8 @@ using FTOptix.NetLogic;
 using System.Collections.Generic;
 using FTOptix.UI;
 using FTOptix.SerialPort;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class SystemToNetworkInterfacesEditModelWriterLogic : BaseNetLogic

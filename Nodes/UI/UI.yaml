@@ -249,3 +249,18 @@ Children:
 - File: Screens/Screens.yaml
 - File: SettingsWidgets/SettingsWidgets.yaml
 - File: Keyboards/Keyboards.yaml
+- Name: Panel1
+  Id: g=31a6225709eb700b9f442d5c7e7443bd
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0

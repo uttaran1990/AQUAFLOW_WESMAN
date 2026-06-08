@@ -7,6 +7,8 @@ using FTOptix.UI;
 using System;
 using System.Collections.Generic;
 using UAManagedCore;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class DateAndTimeWidgetLogic : BaseNetLogic
