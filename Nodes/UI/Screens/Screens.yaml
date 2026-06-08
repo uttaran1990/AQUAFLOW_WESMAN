@@ -18,7 +18,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 800.0
+      Value: 580.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -186,7 +186,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 800.0
+    Value: 580.0
   - Name: Button2
     Type: Button
     Children:
@@ -1994,7 +1994,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 800.0
+      Value: 580.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -2003,6 +2003,235 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+    - Name: LED5
+      Type: Led
+      Children:
+      - Name: Active
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 297.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 79.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 330.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 171.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"AUTO SEQUENCE STARTING"}
+      - Name: Appearance
+        Type: BaseVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "rectangular"
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#248248"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffffff"
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: LED1
+      Type: Led
+      Children:
+      - Name: Active
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 297.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 79.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 630.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 172.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"AUTO SEQUENCE NOT STOPING"}
+      - Name: Appearance
+        Type: BaseVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "rectangular"
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#f8e71c"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#000000"
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: LED2
+      Type: Led
+      Children:
+      - Name: Active
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 297.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 470.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 431.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"ALL CIRUIT BREAKERS ARE CLOSED"}
+      - Name: Appearance
+        Type: BaseVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "rectangular"
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#03b669"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffffff"
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: Label2
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"CIRCUIT BREAKER STATUS"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 480.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 391.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
   - Name: Label1
     Type: Label
     Children:
@@ -2010,7 +2239,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"MODE SELECT"}
+      Value: {"LocaleId":"en-US","Text":"SELECT MODE"}
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -2020,22 +2249,21 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 129.0
+      Value: 190.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 570.0
+      Value: 550.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 10.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
+      Value: 25.0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -2045,7 +2273,267 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 800.0
+    Value: 580.0
+  - Name: MomentaryButton1
+    Type: MomentaryButton
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"MAINTENANCE"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 289.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 88.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 62.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#248248"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+  - Name: MomentaryButton2
+    Type: MomentaryButton
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"OFF"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 520.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 87.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 62.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#eb001b"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+  - Name: MomentaryButton3
+    Type: MomentaryButton
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"AUTO"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 750.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 88.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 62.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#075982"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+  - Name: MomentaryButton4
+    Type: MomentaryButton
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"START COOLER"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 389.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 298.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 62.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#42b1e9"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+  - Name: MomentaryButton5
+    Type: MomentaryButton
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"STOP COOLER"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 639.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 298.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 62.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#072382"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
 - Name: MOISTURESCREEN
   Id: g=582e4701b5df453fcf7416805d4cf230
   Supertype: Screen
@@ -2063,7 +2551,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 800.0
+      Value: 580.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -2072,6 +2560,68 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+    - Name: LED5
+      Type: Led
+      Children:
+      - Name: Active
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 240.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 39.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 540.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 160.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"MODE: OFF"}
+      - Name: Appearance
+        Type: BaseVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "rectangular"
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#eb001b"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffffff"
   - Name: Label1
     Type: Label
     Children:
@@ -2094,12 +2644,11 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 530.0
+      Value: 519.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 10.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -2110,11 +2659,67 @@ Children:
       DataType: FontWeightEnum
       ModellingRule: Optional
       Value: 700
+  - Name: Rectangle1
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 440.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 319.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#072382"
+  - Name: Rectangle2
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 419.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 280.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
   - Name: Height
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 800.0
+    Value: 580.0
   - Name: CircularGauge1
     Type: CircularGauge
     Children:
@@ -2134,29 +2739,515 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 330.0
+      Value: 279.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 330.0
+      Value: 230.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 150.0
+      Value: 120.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 140.0
+      Value: 80.0
     - Name: Editable
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
-  - Name: Button1
-    Type: Button
+  - Name: Label2
+    Type: Label
     Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"ADJUST MAIN WATER PRESSURE UNTIL MOISTURE IS OK"}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 239.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 920.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: WordWrap
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Label4
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"sec"}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 39.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 890.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 170.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+  - Name: Label6
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Ω"}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 39.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1119.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 220.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+  - Name: Label7
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"REALTIVE MOISTURE"}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 239.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 120.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 320.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: WordWrap
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+  - Name: LinearGauge1
+    Type: LinearGauge
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: MinValue
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: MaxValue
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 100.0
+    - Name: WarningZones
+      Type: BaseObjectType
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 790.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 250.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 390.0
+    - Name: GaugeStyle
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Default"
+    - Name: ToolTipStyle
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Default"
+    - Name: Tooltip
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: ScalePosition
+      Type: BaseDataVariableType
+      DataType: PositionEnum
+      ModellingRule: Optional
+      Value: 3
+    - Name: LabelVisible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Editable
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: Orientation
+      Type: BaseDataVariableType
+      DataType: OrientationEnum
+      ModellingRule: Optional
+    - Name: ValueChangeBehaviour
+      Type: BaseDataVariableType
+      DataType: ValueChangeBehaviour
+      ModellingRule: Optional
+  - Name: Label9
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"RELATIVE MOISTURE IS"}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 259.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 490.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 320.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: WordWrap
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+  - Name: Label10
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"FEED CONVEYOR TEMPERATURE"}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 199.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 240.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 507.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: WordWrap
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+  - Name: Label11
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"DUST HOOD TEMPERATURE"}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 140.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 670.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 507.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: WordWrap
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+  - Name: Label14
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"°C"}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 39.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 500.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 507.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+  - Name: Label15
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"°C"}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 39.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 910.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 507.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+  - Name: SpinBox1
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 770.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 310.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.0
+    - Name: Editable
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: ShowButtons
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+  - Name: MomentaryButton1
+    Type: MomentaryButton
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
@@ -2166,67 +3257,1255 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 580.0
+      Value: 540.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 310.0
+    - Name: WordWrap
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#072382"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+  - Name: MomentaryButton2
+    Type: MomentaryButton
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"MOISTURE OK"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 999.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 150.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 270.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 72.0
-    - Name: FontSize
-      Type: BaseDataVariableType
+      Value: 60.0
+    - Name: Width
+      Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
+      Value: 221.0
     - Name: WordWrap
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
       Value: true
-  - Name: Button2
-    Type: Button
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#072382"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+  - Name: SpinBox2
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1010.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 217.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 33.0
+    - Name: Editable
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: ShowButtons
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+  - Name: SpinBox3
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 800.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 170.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 29.0
+    - Name: Editable
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: ShowButtons
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+  - Name: MomentaryButton3
+    Type: MomentaryButton
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"WIRING TEST"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 539.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 221.0
+    - Name: WordWrap
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#072382"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+  - Name: SpinBox4
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 497.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.0
+    - Name: Editable
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: ShowButtons
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+  - Name: SpinBox5
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 820.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 497.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 42.0
+    - Name: Editable
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: ShowButtons
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 600
+- Name: MOISTUREPIDSCREEN
+  Id: g=37e8ed5d8444c61d7f5465bf161170fa
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: Panel1
+    Type: Panel
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1280.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 580.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: SpinBox1
+      Type: SpinBox
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Double
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1130.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 51.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: InputBoxStyle
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Default"
+      - Name: ShowButtons
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 39.0
+    - Name: Label2
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"MOISTURE SET POINT"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1140.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 91.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 37.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: Label1
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"SP"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1088.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 61.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: SpinBox2
+      Type: SpinBox
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Double
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 153.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: InputBoxStyle
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Default"
+      - Name: ShowButtons
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 39.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1128.0
+    - Name: Label3
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"GAIN (Proportional)"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1135.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 193.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 37.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: Label4
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"P"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1090.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 163.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: SpinBox3
+      Type: SpinBox
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Double
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 258.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: InputBoxStyle
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Default"
+      - Name: ShowButtons
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 39.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1129.0
+    - Name: Label5
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"RESET (min/r) (Integral)"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1135.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 37.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: Label6
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"I"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1090.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 268.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: SpinBox4
+      Type: SpinBox
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Double
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 372.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: InputBoxStyle
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Default"
+      - Name: ShowButtons
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 39.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1129.0
+    - Name: Label7
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"RESET (min/r) (Derivative)"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1135.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 414.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 37.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: Label8
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"D"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1090.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 382.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: SpinBox5
+      Type: SpinBox
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Double
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 980.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 481.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: InputBoxStyle
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Default"
+      - Name: ShowButtons
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 39.0
+    - Name: Label9
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"LOOP UPDATE (secs)"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 980.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 521.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 40.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: SpinBox6
+      Type: SpinBox
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Double
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 139.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1120.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 481.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: InputBoxStyle
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Default"
+      - Name: ShowButtons
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 39.0
+    - Name: Label11
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"DEADBAND"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1130.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 521.0
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 600
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 19.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+  - Name: Label1
+    Type: Label
     Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"MOISTURE CALIBRATION "}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 580.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 270.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 270.0
+      Value: {"LocaleId":"en-US","Text":"MOISTURE PID CONTROL"}
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 72.0
+      Value: 39.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 190.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 479.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
-    - Name: WordWrap
+      Value: 25.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 580.0
+  - Name: Trend1
+    Type: Trend
+    Children:
+    - Name: Pens
+      Type: BaseObjectType
+      Children:
+      - Name: TrendPen1
+        Type: TrendPen
+        DataType: BaseDataType
+        Children:
+        - Name: Thickness
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: -1.0
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Thresholds
+          Type: BaseObjectType
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"MOISTURE SETPOINT"}
+        - Name: Color
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#eb001b"
+      - Name: TrendPen2
+        Type: TrendPen
+        DataType: BaseDataType
+        Children:
+        - Name: Thickness
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: -1.0
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Thresholds
+          Type: BaseObjectType
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"REL. MOISTURE"}
+        - Name: Color
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#03b669"
+      - Name: TrendPen3
+        Type: TrendPen
+        DataType: BaseDataType
+        Children:
+        - Name: Thickness
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: -1.0
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Thresholds
+          Type: BaseObjectType
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"VALVE STATE"}
+        - Name: Color
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#42b1e9"
+    - Class: Reference
+      Target: ns=5;i=1129
+      Direction: Forward
+    - Name: XAxis
+      Type: DateTimeAxis
+      Children:
+      - Name: Follow
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Window
+        Type: BaseDataVariableType
+        DataType: Duration
+        Value: "0:00:00:05.0000000"
+      - Name: Interactive
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Time
+        Type: BaseDataVariableType
+        DataType: DateTime
+    - Name: YAxis
+      Type: ValueAxis
+      Children:
+      - Name: Position
+        Type: BaseDataVariableType
+        DataType: HorizontalPositionEnum
+      - Name: MinValue
+        Type: BaseDataVariableType
+        DataType: Size
+      - Name: MaxValue
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 100.0
+      - Name: AutoScale
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: Interactive
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+    - Name: LegendVisible
       Type: BaseDataVariableType
       DataType: Boolean
-      ModellingRule: Optional
       Value: true
+    - Class: Reference
+      Target: ns=5;i=1201
+      Direction: Forward
+    - Name: TimeRanges
+      Type: BaseObjectType
+    - Class: Reference
+      Target: ns=5;i=1209
+      Direction: Forward
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 890.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 459.0
+    - Name: ReferenceTimeZone
+      Type: BaseDataVariableType
+      DataType: ReferenceTimeZone
+      ModellingRule: Optional
+      Value: 1
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
