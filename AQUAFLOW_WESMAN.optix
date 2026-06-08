@@ -91,15 +91,15 @@ Project:
    Module: FTOptix.CommunicationDriver.Net
    Version: 4.0
  Statistics:
-  TotalNodeCount: 2533
-  Objects: 481
+  TotalNodeCount: 9466
+  Objects: 498
   ObjectTypes: 22
-  Variables: 2020
-  VariableTypes: 0
-  DataTypes: 0
+  Variables: 8906
+  VariableTypes: 15
+  DataTypes: 15
   Methods: 10
   References: 24
   ReferenceTypes: 0
-  Files: 34
+  Files: 36
  Nodes:
  - File: Nodes/AQUAFLOW_WESMAN.yaml

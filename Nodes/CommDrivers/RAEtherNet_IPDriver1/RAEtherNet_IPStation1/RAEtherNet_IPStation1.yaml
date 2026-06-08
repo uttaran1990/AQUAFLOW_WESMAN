@@ -1,5 +1,5 @@
 Name: RAEtherNet_IPStation1
-Id: g=21a8016a36d5619e36de48c6455ba2e5
+Id: g=d6b42dce833125a47bfd65fd2eb9055b
 Type: RAEtherNetIPStation
 Children:
 - Name: Route
