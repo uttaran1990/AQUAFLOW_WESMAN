@@ -348,7 +348,6 @@ Children:
     - Name: Panel
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/Screen1"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -365,7 +364,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/AQUAFLOW_WESMAN/Model/PanelLoader"
+            Value: "/Objects/AQUAFLOW_WESMAN/Model/PanelLoader_number"
         - Name: ns=3;Pairs
           Type: BaseObjectType
           ModellingRule: None
@@ -382,7 +381,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               ModellingRule: None
-              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/Screen1"
+              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/MAIN"
           - Name: Pair1
             Type: ValueMapPair
             ModellingRule: None
@@ -396,7 +395,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               ModellingRule: None
-              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/Screen2"
+              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/SelectMode"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
@@ -438,7 +437,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "/Objects/AQUAFLOW_WESMAN/Model/PanelLoader"
+        Value: "/Objects/AQUAFLOW_WESMAN/Model/PanelLoader_number"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -449,26 +448,22 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 80.0
+      Value: 180.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 10.0
+      Value: 40.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 6.0
-    - Name: MinValue
-      Type: BaseDataVariableType
-      DataType: Double
-      ModellingRule: Optional
-    - Name: MaxValue
-      Type: BaseDataVariableType
-      DataType: Double
-      ModellingRule: Optional
-      Value: 1.0
+      Value: 30.0
 - File: Screens/Screens.yaml
 - File: SettingsWidgets/SettingsWidgets.yaml
 - File: Keyboards/Keyboards.yaml
