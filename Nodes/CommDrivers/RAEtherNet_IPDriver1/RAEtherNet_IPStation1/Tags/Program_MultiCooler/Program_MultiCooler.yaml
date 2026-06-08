@@ -1,0 +1,11 @@
+Name: 'Program:MultiCooler'
+Type: FolderType
+Children:
+- Name: I_Auto_Start_Pushbutton
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MultiCooler.I_Auto_Start_Pushbutton"
