@@ -1,2 +1,7 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- Name: PanelLoader_number
+  Id: g=b47b8b6516c24d64129fb42a0a856d3b
+  Type: BaseDataVariableType
+  DataType: Int32
