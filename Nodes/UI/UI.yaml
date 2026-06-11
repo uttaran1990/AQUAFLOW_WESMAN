@@ -565,6 +565,20 @@ Children:
               DataType: NodeId
               ModellingRule: None
               Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/MULTICOOLER_OVERVIEW"
+          - Name: Pair7
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              ModellingRule: None
+              Value: 6
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: NodeId
+              ModellingRule: None
+              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/COMPENSATION_FACTOR_SCREEN"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
