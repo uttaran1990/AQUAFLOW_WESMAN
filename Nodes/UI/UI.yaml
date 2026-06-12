@@ -579,6 +579,48 @@ Children:
               DataType: NodeId
               ModellingRule: None
               Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/COMPENSATION_FACTOR_SCREEN"
+          - Name: Pair8
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              ModellingRule: None
+              Value: 7
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: NodeId
+              ModellingRule: None
+              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/FLOW_CALIBRATION_SCREEN"
+          - Name: Pair9
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              ModellingRule: None
+              Value: 8
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: NodeId
+              ModellingRule: None
+              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/INFORMATION_SCREEN"
+          - Name: Pair10
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Int32
+              ModellingRule: None
+              Value: 9
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: NodeId
+              ModellingRule: None
+              Value: "/Objects/AQUAFLOW_WESMAN/UI/Screens/DOOR_PID_SCREEN"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
